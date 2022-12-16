@@ -1,13 +1,14 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
-* mul - entry point
-* @a: character to check
- @b: character to check
-* Description: multiply two integers
-* Return: 0
-*/
+ *  mul - multiplies two integers.
+ *  @a: first number.
+ *  @b: second number.
+ *  Return: multiplication.
+ */
 int mul(int a, int b)
 {
+
 		return (a * b);
+
 }
